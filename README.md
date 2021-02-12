@@ -18,7 +18,7 @@ I would use RestClient gem rather than HTTP gem. Because with RestClient gem you
 
 If I used database(actually I if need to use) I would create a model which name is Movie then I map the data from API to this model. But I chose to push the data to an array with manipulation. I mean I pushed only fields that I will show to user. Because I don't need to save data. I would use HAML. I would read APIKEY from env variables. I would not use inline styling.
 
-## What would you look at more carefully?
+## What would you look at more carefully?
 
 Error handling. I mean, I would have handled errors more deeply. I would have separated errors according to each response code.
 
